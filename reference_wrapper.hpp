@@ -10,7 +10,7 @@ namespace reference_wrapper {
     #include <functional>
 
     template <typename T>
-    void foo(const std::vector<T> &strings) {
+    void fooo(const std::vector<T> &strings) {
         for (const std::string &str: strings) {
             std::cout << str << " ";
         }
@@ -26,9 +26,9 @@ namespace reference_wrapper {
                 std::ref(strings[2]),
 
         };
-        foo(strings);
-        foo(string_refs);
-        foo(string_refs2);
+        fooo(strings);
+        fooo(string_refs);
+        fooo(string_refs2);
         return 0;
     }
 }
