@@ -5,6 +5,7 @@
 #include "multiple_inheritance.hpp"
 #include "dynamic_cast.hpp"
 #include "reference_wrapper.hpp"
+#include "move_semantic.hpp"
 int main() {
 //    virtual_function::main();
 //    move_ctor::main();
